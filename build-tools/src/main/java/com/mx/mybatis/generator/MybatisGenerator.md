@@ -4,7 +4,7 @@
 
 项目build-tools, plugins中有, 如果是第一次引入还需要引入以下依赖下载插件, 下载到仓库后删掉即可.
 
-1. 依赖
+### 依赖
 
 ```xml
 <dependency>
@@ -15,7 +15,7 @@
 </dependency>
 ```
 
-2. 插件
+### 插件
 
 ```xml
 <!--Mybatis Generator beg-->
@@ -121,9 +121,9 @@
 </generatorConfiguration>
 ```
 
- note: 注意如果没有网络环境， 需要单独下载 "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd"
+ note: 注意如果没有网络环境， 需要单独下载 "[http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd](http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd)"
 
-[./mybatis-generator-config_1_0.dtd]()
+[本地文件](./mybatis-generator-config_1_0.dtd)
 
 再通过IDEA配置添加到环境中
 

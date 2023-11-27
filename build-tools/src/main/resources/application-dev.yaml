@@ -1,0 +1,4 @@
+spring:
+  config:
+    # mybatis测试.
+    location: classpath:mybatis/bootstrap/application.yml
