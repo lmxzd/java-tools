@@ -11,6 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>build-tools</artifactId>
     <description>构建工具</description>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -121,8 +122,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.mx.MybatisBootstrap</mainClass>
-                    <skip>true</skip>
+                    <mainClass>com.mx.mybatis.bootstrap.MybatisBootstrap</mainClass>
                 </configuration>
                 <executions>
                     <execution>

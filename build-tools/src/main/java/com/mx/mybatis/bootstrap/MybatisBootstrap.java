@@ -1,4 +1,4 @@
-package com.mx;
+package com.mx.mybatis.bootstrap;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
