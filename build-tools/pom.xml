@@ -20,7 +20,7 @@
 
     <dependencies>
         <!-- Spring beg -->
-        <!-- SpringBoot自动注入 -->
+        <!-- SpringBoot配置解析器 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
@@ -89,8 +89,7 @@
                 <version>1.3.7</version>
                 <configuration>
                     <!--mybatis的代码生成器的配置文件-->
-                    <configurationFile>src/main/resources/mybatis/generator/mybatis-generator-config.xml
-                    </configurationFile>
+                    <configurationFile>src/main/resources/mybatis/generator/mybatis-generator-config.xml</configurationFile>
 
                     <overwrite>true</overwrite>
                     <verbose>true</verbose>
@@ -121,6 +120,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
+                <!-- mybatis -->
                 <configuration>
                     <mainClass>com.mx.mybatis.bootstrap.MybatisBootstrap</mainClass>
                 </configuration>
